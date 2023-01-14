@@ -1,4 +1,90 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:ital@0;1&display=swap");
+
 * {
   margin: 0%;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: auto;
+  max-width: 1080px;
+}
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+/* ==================== nav-bar styles ==================== */
+.nav-manu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.nav-home h3 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.nav-item ul {
+  list-style-type: none;
+}
+.nav-item ul li {
+  display: inline;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  margin-right: 30px;
+}
+/* ======banner page styles====== */
+.banner-page {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-details {
+  width: 862px;
+  height: 225px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.bannder-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #131313;
+}
+.banner-description {
+  width: 868px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+}
+.banner-button {
+  width: 180px;
+  height: 64px;
+}
+.explore-button {
+  width: 180px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: rgb(255, 144, 14);
+}
+.banner-img img {
+  margin-top: 50px;
+  width: 1080px;
+  height: 500px;
+  margin-bottom: 20px;
+  border-radius: 8px;
 }
