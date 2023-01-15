@@ -146,9 +146,10 @@ header {
 }
 /*====== features page styles ======== */
 .feature-page {
+  background-color: #695640;
   display: flex;
   justify-content: space-evenly;
-  column-gap: 45px;
+  column-gap: 30px;
 }
 .feature-title {
   border-left: solid #ff900e 5px;
@@ -196,17 +197,70 @@ header {
   width: 700px;
   height: 1059px;
 }
+.feature-img img {
+  width: 600px;
+  height: 1059px;
+}
 .feature-button {
   width: 252px;
   height: 180px;
   position: absolute;
   background: #ff900e;
-  margin-top: -130px;
-  margin-left: -35px;
+  margin-top: 928px;
+  margin-left: -665px;
   border-radius: 8px;
   font-weight: 700;
   font-size: 35px;
   line-height: 50px;
   border: none;
   color: #ffffff;
+}
+/*========== some facts styles ========== */
+.some-facts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+  margin-top: 80px;
+}
+.fact-title h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+.fact-title p {
+  margin-top: 20px;
+  color: #727272;
+  width: 500px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.facts-items {
+  display: flex;
+  justify-content: space-around;
+}
+.fact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+}
+.fact-item h3 {
+  margin: 8px 0px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 53px;
+  color: #424242;
+}
+.fact-item p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
 }
