@@ -6,7 +6,7 @@
 }
 body {
   margin: auto;
-  max-width: 1080px;
+  max-width: 1120px;
 }
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -87,4 +87,126 @@ header {
   height: 500px;
   margin-bottom: 20px;
   border-radius: 8px;
+}
+/*=============== quick-list styles ========= */
+.quick-list {
+  background-color: aquamarine;
+  margin-top: 85px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  margin-bottom: 145px;
+}
+.quick-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.quick-images img {
+  width: 320px;
+  height: 320px;
+  border-radius: 8px;
+}
+.quick-detaills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quick-title {
+  margin-bottom: 22px;
+  padding-left: 40px;
+  width: 450px;
+  height: 106px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+}
+.quick-description {
+  word-break: normal;
+  width: 400px;
+  height: 140px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.quick-button {
+  width: 180px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: rgb(255, 144, 14);
+}
+/*====== features page styles ======== */
+.feature-page {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 45px;
+}
+.feature-title {
+  border-left: solid #ff900e 5px;
+  padding-left: 15px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.feature-details .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.features-items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.feature-item {
+  width: 400px;
+  height: 160px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.feature-item-title {
+  padding: 30px 0px 5px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+}
+.feature-item-description {
+  padding-left: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.feature-img {
+  width: 700px;
+  height: 1059px;
+}
+.feature-button {
+  width: 252px;
+  height: 180px;
+  position: absolute;
+  background: #ff900e;
+  margin-top: -130px;
+  margin-left: -35px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  border: none;
+  color: #ffffff;
 }
